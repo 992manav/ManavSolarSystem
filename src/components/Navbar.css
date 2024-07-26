@@ -1,0 +1,9 @@
+.Navbar{
+    display: flex;
+   
+    /* background-color:red; */
+    background-color: rgb(23, 5, 48);
+   
+    flex-wrap: wrap;
+    
+}

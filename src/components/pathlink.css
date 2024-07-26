@@ -1,0 +1,33 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+   
+}
+
+ul span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    margin-left: 22%;
+    justify-content:space-evenly;
+    width: 40%;
+    color: white;
+
+}
+
+ul li{
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+   
+}

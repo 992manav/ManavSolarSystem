@@ -1,0 +1,114 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    background: #100622; 
+    margin: 0;
+    /* height: '100vph'; */
+}
+
+.MarsbackgroundDiv {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row; 
+    /* background-color: blueviolet; */
+  
+}
+
+.MarsContainer{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+}
+
+.Marstheory{
+   height:fit-content;
+   margin-left: 4rem;
+   margin-top: 2rem;
+  
+
+}
+
+.Marsmoons{
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+    align-items: center;
+  flex-grow: 1;
+ 
+}
+
+.Marsstats {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color:burlywood; */
+    width: 40%;
+}
+
+
+
+.Marsstat {
+    border: 4px solid rgb(96, 13, 73);
+    padding: 10px;
+    width:fit-content;
+    height:fit-content;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 5px 5px grey;
+    transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s;
+}
+
+.Marsstat:hover{
+    background-color:red;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+/* .Marsvalue {
+    font-size: 2em;
+    margin: 10px 0;
+} */
+
+
+.Marsstat div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.2rem;
+}
+
+.Marsstat i {
+    font-size:3rem;
+    margin-right: 2rem;
+    color:white;
+}
+
+/* svg{
+    transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s;
+  }
+  
+  svg:hover{
+    transform: scale(1.1) translateX(25px) ;
+  } */
+
+  @media screen and (max-width:420px) {
+    .MarsbackgroundDiv{
+   flex-direction: column;
+ }
+}
+
+@media screen and (max-width:480px) {
+    .Marsstats{
+   /* flex-direction: row; */
+        justify-content: center;
+        width:100%;
+        flex-wrap: wrap;
+ }
+}

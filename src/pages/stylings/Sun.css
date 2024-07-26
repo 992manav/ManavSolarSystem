@@ -1,0 +1,74 @@
+
+
+.background {
+    /* background-color:blue; */
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    
+}
+
+
+.content{
+    /* background-color: aqua; */
+    padding:5%;
+    padding-left: 7%;
+    padding-right: 10%;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.sunimage img {
+    height: 20%;
+    width:95vw;
+    margin-top: 2px;
+    margin-left: 3%;
+    text-align: center;
+     transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s;
+}
+/* 
+.sunimage img:hover {
+    transform: scale(1.3)  translateY(5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+
+} */
+
+.Sstats {
+    margin-top: 10%;
+    display: flex;
+    /* justify-content:center; */
+    font-size: larger;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+
+.Sstat{
+    font-size: 1.2rem;
+    border: 4px solid rgb(96, 13, 73);
+   padding: 15px 10% ;
+    border-radius: 10px;
+   
+    text-align: center;
+    margin-right: 40px;
+    margin-bottom: 5%;
+    box-shadow: 1px 5px 5px grey;
+    transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s;
+}
+
+.Sstat:hover{
+    background-color:yellow;
+    transform: translateY(-10px) scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    color: black;
+    
+}
+
+.Sstat div {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-weight: bolder;
+}

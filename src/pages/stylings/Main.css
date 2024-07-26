@@ -1,0 +1,127 @@
+.MainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.Leftside, .Rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 60%;
+ }
+  
+.Rightside {
+    /* background-color: blue; */
+
+    display:flex;
+    flex-direction: column;
+   align-items: end;
+   justify-content: space-between;
+   height: auto;
+}
+  
+
+.Middle{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+    flex-wrap: inherit;
+    justify-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+
+    
+}
+   
+.MiddleUp{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 20%;
+ 
+}
+  
+.MiddleDown{
+    /* background-color: blueviolet; */
+    height:10%;
+   display: flex;
+   justify-content: center;
+   align-items: end;
+
+}
+
+.MiddleDown img {
+    height: 100%;
+}
+
+.MiddleUp img {
+    height: 100px;
+}
+
+  
+  .Rightside img {
+    max-width: 100%;
+    height:31%
+  }
+
+.Leftside img {
+    max-width: 100%;
+    height:31%;
+}
+  
+ 
+.paraa{
+    height:fit-content;
+    /* background-color: cornflowerblue; */
+    padding-left: 5%;
+    padding-right: 5%;
+   font-size:1.2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   flex-grow: 1;
+   padding-bottom: 1rem;
+}
+ 
+.learn-more-btn{
+padding:2%;
+width: 40%;
+background: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+border-radius: 8px;
+text-align: center;
+font-family: 'Orbitron';
+font-weight: 900;
+font-size: 21px;
+margin-left: 30%;
+letter-spacing: -0.02em;
+color: #FFFFFF;
+}
+
+@media screen and (max-width:1200px) {
+      .MiddleDown {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width:900px) {
+    .MiddleUp {
+    display: none;
+  }
+}
+
+
+img{
+  transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s;
+}
+
+img:hover{
+  transform: scale(1.3);
+}
